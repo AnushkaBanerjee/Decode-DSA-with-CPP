@@ -11,10 +11,10 @@ int main(){
     for(int i = 0;i < n;i++){
         cin>>arr[i];
     }
-    int max = INT_MIN;//(lowest value of integer) or max = arr[0];
+    int min = INT_MAX;//(lowest value of integer) or max = arr[0];
     for(int i = 0;i < n;i++){
-        if(max < arr[i]) max = arr[i];
+        if(min > arr[i]) min = arr[i];
     }
-    cout<<"Maximum element is:"<<max;
+    cout<<"Minimum element is:"<<min;
 return 0;
 }
