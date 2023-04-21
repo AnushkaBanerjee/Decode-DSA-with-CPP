@@ -3,6 +3,11 @@
 using namespace std;
 
 void display(int *a,int size){//int a[]
+    
+    cout<<"Passed array by reference "<<a<<endl;
+    cout<<"Passed array by reference with & "<<&a<<endl;//->This is the address of the pointer itself
+    
+    
     for(int i = 0;i < size;i++){
         cout<<a[i]<<" ";
     }
@@ -19,6 +24,12 @@ int main(){
 int arr [] = {1,4,2,7,5};
 
 int size = sizeof(arr)/sizeof(arr[0]);
+
+cout<<"This is the address of main array "<<arr<<endl;
+cout<<"This is the address of array with ampersand "<<&arr<<endl;
+
+
+
 
 
 /*TODO:
