@@ -1,24 +1,24 @@
 //Sort the 0's and 1's
-//Method : 1
+
 #include<iostream>
 #include<vector>
 using namespace std;
 
-void sort01(vector<int>& a){
-    int noz=0,noo=0;
-    for(int i = 0;i < a.size();i++){
-        if(a[i]==0)noz++;
-        else noo++;
-    }
-    for(int i = 0;i < a.size();i++){
-        if(i < noz)a[i]=0;
-        else a[i]=1;
-    }
 
+
+
+//Method 2:Using two pointers
+void sort01(vector<int>&a){
+    int i=0,j=a.size()-1;
+    while(i<j){
+        if(a[i]==1&&a[j]==0){//or this can be written at last but there has to be a break condition in between
+            a[i]=0;
+            a[j]=1;
+        }
+        if(a[i]==0)i++;
+        if(a[j]==1)j--;
+    }
 }
-
-
-
 
 
 int main(){
