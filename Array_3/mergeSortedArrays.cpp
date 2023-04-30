@@ -24,22 +24,22 @@ vector<int> mergeSortedArray(vector<int>&arr1,vector<int>&arr2){
         }
 
         //for remaining elements
-        if(i == m){//arr1 is completed
+        // if(i == m){//arr1 is completed
         while(j<=n-1){
             res[k]=arr2[j];
             j++;
             k++;
         }
             
-        }
+        //}
 
-        if(j == n){
+        //if(j == n){
             while(i <= m-1){
                 res[k]=arr1[i];
                 i++;
                 k++;
             }
-        }
+        //}
         return res;
     }
 
