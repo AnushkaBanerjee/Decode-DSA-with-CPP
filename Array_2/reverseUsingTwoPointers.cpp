@@ -68,7 +68,7 @@ int main(){
 // }
 
 
-reverse(v1.begin(),v1.end());//inbuilt function
+reverse(v1.begin(),v1.end());//built-in function
  display(v1);
 return 0;
 }
