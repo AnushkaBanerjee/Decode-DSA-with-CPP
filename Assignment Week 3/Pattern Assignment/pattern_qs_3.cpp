@@ -11,11 +11,11 @@ for(int i = 1;i<=n;i++){
     }
     cout<<endl;
 }
-// for(int i = 1;i<=n;i++){
-//     for(int j = 1;j <=i;j++){
-//         cout<<(char)(j+64)<<" ";
-//     }
-//     cout<<endl;
-// }
+
 return 0;
 }
+//Output -> 
+// 1 
+// A B 
+// 1 2 3 
+// A B C D 
