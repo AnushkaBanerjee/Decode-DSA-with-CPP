@@ -12,8 +12,8 @@ string s;
 getline(cin,s);
 int count = 0;
 for(int i = 0 ;s[i]!='\0';i++){
-    count++;
-    if(count % 2 == 0) s[i]='a';
+    
+    if(i % 2 == 0) s[i]='a';
 }
 cout<<s;
 return 0;
