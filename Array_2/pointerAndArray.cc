@@ -5,14 +5,16 @@ int main(){
     int* ptr = arr;//giving address /*TODO: int *ptr = &arr[0] */
     // cout<<ptr<<endl;
     // cout<<ptr[0]<<endl;
-    cout<<&arr<<endl;
-    cout<<arr<<endl;
-    cout<<&arr[0]<<endl;
-    cout<<ptr<<endl;
-    cout<<&ptr<<endl;
-    // for(int i = 0;i < 5;i++){
-    //     cout<<ptr[i]<<' ';//OR cout<<i[arr]<<endl; OR cout<<i[ptr]<<endl;
-    // }
+    // cout<<&arr<<endl;
+    // cout<<arr<<endl;
+    // cout<<&arr[0]<<endl;
+    // cout<<ptr<<endl;
+    // cout<<&ptr<<endl;
+     for(int i = 0;i < 5;i++){
+        // cout<<ptr[i]<<' ';
+         cout<<i[arr]<<endl; 
+        // OR cout<<i[ptr]<<endl;
+     }
     // cout<<endl;
     // *ptr = 8;
 
