@@ -1,4 +1,4 @@
-//reverse first part of the string of even length
+// Input a string of even length and reverse the second half of the string.
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -8,7 +8,7 @@ cout<<"Enter the string of  even length:"<<endl;
 getline(cin,str);
 int len = str.length();
 //reverse first half
-reverse(str.begin(),str.begin()+(len/2));
+reverse(str.begin()+(len/2),str.end());
 cout<<str<<endl;
 return 0;
 }
