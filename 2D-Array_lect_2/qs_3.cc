@@ -1,4 +1,4 @@
-//Wave print
+//Wave print from lower end (row-wise)
 #include<iostream>
 using namespace std;
 int main(){
