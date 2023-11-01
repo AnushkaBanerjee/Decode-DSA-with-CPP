@@ -11,7 +11,7 @@ int n = 6;
 //         break;
 // }
 // }
-//The above approach is in O(log n)
+
 
 //time complexity : O(n)
 
@@ -26,6 +26,8 @@ while(lo<=hi){
         hi = mid-1;
     }
 }
+
+//The above approach is in O(log n)
 
 cout<<ans;
 return 0;
