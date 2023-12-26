@@ -10,7 +10,7 @@ int main(){
     //  x = x + 1
     // cout<<++x;//pre increment : This will increment value first and then assign it
     // cout<<x++<<endl;//post increment : This will assign value first and then increment it
-    cout<<x<<endl;
+    // cout<<x<<endl;
     
     //Similarly the decrement operators work like : x = x-1;
     // x-- or --x
