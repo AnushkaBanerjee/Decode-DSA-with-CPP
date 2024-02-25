@@ -11,5 +11,6 @@ int main(){
       
     cout<<(p == q == r);//left to right precednece
     //(p==q)==(r) -> (0)==2 -> 0
+    //if left to right precedence was not followed
     //(p)==(q==r) -> (1)==(2==2) -> (1)==(1) -> 1
 }
