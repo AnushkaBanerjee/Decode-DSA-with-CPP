@@ -42,4 +42,16 @@ This step is named pre-storing as we are pre-calculating the information about t
 
 Step 2 - Fetching: In this step, we will select each query i.e. the number and for the query, we will just fetch the value of hash[number] and return it instead of running a ‘for loop’ every time. 
 
+
+## Point to remember:
+We may encounter a problem where the maximum array element may be very large like 109. In that case, theoretically, we should declare an array of size 109+1. But we cannot do so. The maximum size of an array can be the following:
+
+![alt text](image-3.png)
+
+Note: So, with this method, we can solve the problems where the array is within a specific size. We are going to discuss later in the article, how we can overcome this limitation of the specific size.
+
+Until now, we have learned the number hashing. Now, let’s discuss the character hashing.
+
+
+
 ### Taken from Strivers A2Z sheet
